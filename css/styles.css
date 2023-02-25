@@ -5,24 +5,29 @@
 --color-button: #4D5AE5;
 --color-page: #E7E9FC;
 --color-hover: #404BBF;
-
-
+--color-team: #F4F4FD;
 }
 
-ul {
-list-style-type: none;  
-}
+
+ 
+
 
 body {
 background-color: var(--color-inverted);
-
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 color: var(--color-secondary);
-line-height: 1.6;
+list-style: none;
+text-decoration: none;
+list-style-type: none;
 }
 
 
+
+
+.hero-ul-nav {
+list-style:none;
+}
 
 
 
@@ -31,6 +36,7 @@ line-height: 1.6;
 .page-heder{
 border-bottom: 1px solid var(--color-page);
 background: var(--color-inverted);
+display: block;
 }
 
 .logo-first {
@@ -38,6 +44,7 @@ background: var(--color-inverted);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.3;
     color: var(--color-button);
     text-decoration: none;
     text-transform: uppercase;
@@ -50,6 +57,7 @@ background: var(--color-inverted);
     font-style: normal;
     font-weight: 800;
    font-size: 18px;
+   line-height: 1.3;
     color: var(--color-primary);
     text-decoration: none;
    text-transform: uppercase;
@@ -58,13 +66,16 @@ background: var(--color-inverted);
 
 
 .site-nav {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-style: normal;
+text-decoration: none;
 font-weight: 500;
 font-size: 16px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
 text-decoration: none;
+list-style: none;
 }
 
 .site-nav:hover{
@@ -72,8 +83,9 @@ text-decoration: none;
 }    
 
 .box-address {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-style: normal;
+line-height: 1.5;
 font-weight: 400;
 font-size: 16px;
 text-decoration: none;
@@ -100,6 +112,7 @@ background: var(--color-primary);
 .hero-title {
 font-weight: 700;
 font-size: 56px;
+line-height: 1.07;
 color: var(--color-inverted);
 font-family: 'Roboto', sans-serif;
 letter-spacing: 0.02em;
@@ -142,7 +155,9 @@ background-color: var(--color-hover);
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: var(--color-primary);
-    list-style-type: none; 
+}
+.hero-h2 {
+list-style: none;
 }
 
 
@@ -160,7 +175,7 @@ background-color: var(--color-hover);
 
 
 .page-aside {
-    background-color: #F4F4FD;
+    background-color:var(--color-team);
 }
 
 .box-aside {
@@ -183,7 +198,7 @@ background-color: var(--color-hover);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    color: #F4F4FD;;
+    color: var(--color-team);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -208,7 +223,7 @@ color: var(--color-page);
 padding: 12px 24px;
 border: 1px solid var(--color-page);
 border-radius: 4px;
-background: #F4F4FD;
+background: var(--color-team);
 color: var(--color-button);
 cursor: pointer;
 border: none;
@@ -237,8 +252,6 @@ color: var(--color-inverted);
 cursor: pointer;
 border: none;
 }
-
-
 
 
 
