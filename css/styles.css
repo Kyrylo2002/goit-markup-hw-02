@@ -8,30 +8,17 @@
 --color-team: #F4F4FD;
 }
 
-
- 
-
-
 body {
 background-color: var(--color-inverted);
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
+line-height: 1.5;
 color: var(--color-secondary);
-list-style: none;
-text-decoration: none;
-list-style-type: none;
 }
-
-
-
 
 .hero-ul-nav {
 list-style:none;
 }
-
-
-
-
 
 .page-heder{
 border-bottom: 1px solid var(--color-page);
@@ -40,29 +27,29 @@ display: block;
 }
 
 .logo-first {
-    font-family: 'Raleway' ,sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.3;
-    color: var(--color-button);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.03em
-    }
+font-family: 'Raleway' ,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--color-button);
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.03em
+}
 
 
 .logo-second {
-    font-family: 'Raleway' ,sans-serif;
-    font-style: normal;
-    font-weight: 800;
-   font-size: 18px;
-   line-height: 1.3;
-    color: var(--color-primary);
-    text-decoration: none;
-   text-transform: uppercase;
-    letter-spacing: 0.03em;
-    }
+font-family: 'Raleway' ,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+color: var(--color-primary);
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+}
 
 
 .site-nav {
@@ -74,6 +61,19 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
+text-decoration: none;
+list-style: none;
+}
+
+.site-nav-studio {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-hover);
 text-decoration: none;
 list-style: none;
 }
@@ -93,16 +93,8 @@ color: var(--color-secondary);
 }
 
 .box-address:hover {
-    color: var(--color-hover);
+color: var(--color-hover);
 }
-
-
-
-
-
-
-
-
 
 
 .hero {
@@ -114,7 +106,6 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 color: var(--color-inverted);
-font-family: 'Roboto', sans-serif;
 letter-spacing: 0.02em;
 }
 
@@ -136,72 +127,79 @@ background-color: var(--color-hover);
 }
 
 
-
-
-
-
-
-
-
-
-.studio {
-    color: var(--color-inverted);
+.section-subtitle {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.02em;
+line-height: 1.2;
+color: var(--color-primary);
+}
+.section-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-secondary);
 }
 
-.hero-subtitle {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: var(--color-primary);
+.hero-uk {
+list-style: none;
 }
-.hero-h2 {
+.picture {
 list-style: none;
 }
 
-
-
-
-
-
-
-.picture {
- list-style-type: none;
+.h3-aside {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--color-primary);
 }
-    
 
+.content-aside {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;  
+line-height: 1.5;  
+color: var(--color-secondary);
+}
 
-
+.h2-aside {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+color: var(--color-primary);
+}
 
 .page-aside {
-    background-color:var(--color-team);
+background-color:var(--color-team);
 }
 
 .box-aside {
-    background: var(--color-inverted);
-    list-style-type: none;
+background: var(--color-inverted);
+list-style-type: none;
 }
     
-
-
-
-
-
-
 .page-footer {
  background-color: var(--color-primary);
 }
 
 .logo-third {
-    font-family: 'Raleway' ,sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    color: var(--color-team);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+font-family: 'Raleway' ,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+color: var(--color-team);
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.03em;
 }
 
 .footer-slogan {
@@ -209,15 +207,6 @@ color: var(--color-page);
 }
 
 
-
-
-
-
-
-
-.hero-port {
-    color: var(--color-inverted);
-}
 
 .button-port{
 padding: 12px 24px;
@@ -230,10 +219,42 @@ border: none;
 font-family: inherit;
 }
 
+.site-nav-portfolio {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-hover);
+text-decoration: none;
+list-style: none;    
+}
 
 .button-port:hover {
 background: var(--color-hover);
 color: var(--color-inverted);
+}
+.box-desc-port {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-secondary);
+}
+
+.box-content-port{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--color-primary);
+}
+.picture-port {
+list-style: none; 
 }
 
 .box-aside-port{
@@ -252,7 +273,3 @@ color: var(--color-inverted);
 cursor: pointer;
 border: none;
 }
-
-
-
-
