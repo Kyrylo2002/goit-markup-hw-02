@@ -255,6 +255,7 @@ color: var(--color-primary);
 }
 .picture-port {
 list-style: none; 
+text-decoration: none;
 }
 
 .box-aside-port{
@@ -262,14 +263,22 @@ box-sizing: border-box;
 border: 1px solid var(--color-page);
 text-decoration: none;
 list-style: none;
+text-decoration: none;
+
+}
+.port-but{
+list-style: none; 
 }
  
 .button-port-all {
 padding: 12px 24px;
-border: 1px solid var(--color-page);
 border-radius: 4px;
+border: 1px solid #E7E9FC;
 background: var(--color-hover);
 color: var(--color-inverted);
 cursor: pointer;
-border: none;
+}
+
+.div-box-port {
+text-decoration: none;
 }
